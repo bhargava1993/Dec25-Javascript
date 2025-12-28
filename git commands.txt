@@ -1,0 +1,38 @@
+
+create repo:
+-------------
+
+git branch <branch_name>
+
+ex:
+git branch javascript_main
+
+list of branchs:
+----------------
+
+git branch
+
+git branch -a
+
+to switch from one branch to another branch :
+--------------------------------------------
+git checkout javascript_main
+
+
+to add files to github:
+-----------------------------
+
+git add file1, file2 (modified files list) -  recomanded
+
+git add .
+
+
+commit message:
+-----------------------
+
+git commit -m "user message"
+
+
+push changes into branch:
+-----------------------------
+git push origin javascript_main
