@@ -1,11 +1,16 @@
 
+to get git repo into your local system:
+--------------------------------------------
+git clone https://github.com/bhargava1993/Dec25-Javascript.git
+
 create repo:
 -------------
-
 git branch <branch_name>
 
 ex:
 git branch javascript_main
+
+git branch javascript_jyothi
 
 list of branchs:
 ----------------
@@ -36,3 +41,15 @@ git commit -m "user message"
 push changes into branch:
 -----------------------------
 git push origin javascript_main
+
+to pull changes into other branch:
+------------------------------------
+git pull origin javascript_main
+
+
+
+git stash
+
+git stash apply
+
+git fetch

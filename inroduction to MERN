@@ -1,0 +1,73 @@
+MERN 
+
+Mongodb -> database -> nosql database -> data will store in json format
+
+Express -> it is a module framework -> by using express framework we will implement api's
+
+doc link:
+----------------
+https://expressjs.com/
+
+API -> application programming interface
+
+http methods:
+--------------
+
+get -> fetching data 
+post -> insert data -> it will not store input request details in browsers cache
+put -> update data -> (whole object)
+patch -> update data(partial update)
+delete -> deleting record from database
+
+status codes:
+-------------
+https://restfulapi.net/http-status-codes/
+------------------------------------------------
+200 -> success
+201 -> new record inseration
+500 -> internal server error
+400 -> bad request
+404 -> not found 
+401 -> Unauthorized
+
+
+// let sudheerObj = {
+//     name: "sudheer",
+//     marks: 90,
+//     "total Marks": 595,
+//     occupation: "senior doctor",
+//     salary: 500000
+// }
+
+React: react is a javascript library, by using this we can implement ui
+
+
+Node.js: it is runtime environment, we can able to run javasript outside the browser
+
+v8 engening -> v8 engine is implemented by using c language
+
+
+
+npm - node package manager
+
+web site link:
+-------------------
+https://www.npmjs.com/
+
+
+npm install <packageName>
+
+ex: npm install express
+
+    npm i express
+
+
+postman: api testing tool
+
+
+crud:
+
+create --> post
+read   --> get
+update --> put, patch
+delete --> deleting record 
