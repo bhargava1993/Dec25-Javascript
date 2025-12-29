@@ -80,7 +80,3 @@ app.listen(PORT, () => {
     console.log("Server is running on 3000 port");
 });
 
-
-
-
-
