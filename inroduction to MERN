@@ -61,6 +61,8 @@ ex: npm install express
 
     npm i express
 
+    npm i
+
 
 postman: api testing tool
 
