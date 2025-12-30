@@ -1,0 +1,42 @@
+
+req.params
+req.query
+req.body
+
+
+<!-- id =1
+name = "venu"
+emalid = "vaenu@email.com" -->
+
+req.params:
+------------------
+/user/:id
+/user/:emailID
+/user/:name
+
+req.params
+{id:"1"}
+{emailId:"venu@gamil.com"}
+{name:"venu"}
+
+
+req.query:
+------------------
+
+/user 
+{
+    "id":1,
+    "name":"venu",
+    "emailId":"venu@gamil.com"
+}
+
+req.body:
+------------
+
+/user
+
+{
+    "id":1,
+    "name":"venu",
+    "emailId":"venu@gamil.com"
+}
