@@ -1,0 +1,64 @@
+sync 
+Async
+
+sync:
+        success                inprogress
+                                ------------
+task-1 - completed  - 10min
+task-2 - completed  - 10min - inprogess
+task-3 - completed  - 10min - it wont start
+task-4 - completed  - 10min - it wont start
+task-5 - completed  - 10min - it wont start
+task-6 - completed  - 10min - it wont start
+
+                      60min
+
+async:
+
+task-1 - completed  - 10min
+task-2 - completed  - 10min - inprogess
+task-3 - completed  - 10min - 
+task-4 - completed  - 10min - 
+task-5 - completed  - 10min - 
+task-6 - completed  - 10min - 
+
+                      10min
+
+
+
+
+eventloop
+                
+call stack     
+                  webApi / threds  
+
+
+
+                   que  --> first in first out
+
+
+micro tasks - mini task
+                settime
+Promise
+dbcalls
+
+process.nextTick()
+
+
+new Promises((reject,resolve)=>{
+
+process.nextTick();
+
+})
+
+
+new Promises((reject,resolve)=>{
+
+
+
+})
+
+
+v8 - engine  --> c++ langue
+
+libv --> module which by using c++ 
