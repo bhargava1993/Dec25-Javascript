@@ -14,6 +14,10 @@ function getUser(req, res) {
     res.send({ "message": "fetch user" });
 }
 
+let getUser = (req, res)=>{
+        res.send({ "message": "fetch user" });
+}
+
 function getSingleUser(req, res) {
     console.log("req.params--", req.params);
     res.send({ "message": "fetch signle user", data:req.params });

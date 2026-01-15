@@ -1,0 +1,148 @@
+sql: structuced query language
+
+student table: 
+
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255),
+    describe varchar(255),
+);
+
+salary
+occupaion
+
+ALTER TABLE Customers
+ADD salary varchar(255);
+
+
+ALTER TABLE Customers
+ADD occupaion varchar(255);
+
+
+
+mongodb: nosql 
+
+bson: 
+{
+    "name":"venu",
+    "id":"123",
+    "email":"venu@email.com"
+}
+
+size: 16mb
+
+node.js
+
+JSON --> javascript Obeject Notation
+
+{
+    "name":"venu",
+    "id":"123",
+    "email":"venu@email.com"
+}
+
+[{
+    "name":"venu",
+    "id":"1",
+    "email":"venu@email.com"
+},
+{
+    "name":"sudheer",
+    "id":"2",
+    "email":"sudheer@email.com"
+},
+{
+    "name":"zaiba",
+    "id":"3",
+    "email":"Zaiba@email.com"
+}]
+
+
+download links:
+--------------------
+
+you need to download msi verion not zip:
+-----------------------------------------
+https://www.mongodb.com/try/download/community
+https://www.mongodb.com/try/download/shell
+
+
+
+database:
+---------
+
+sql          mongodb
+TABLE  ---  collection
+
+
+database --> collection of table
+
+database has name 
+you need to create database 
+
+you need to activate that database
+
+then you need to create tables inside database
+
+
+tables:
+-------
+
+sql:
+-------
+collection of rows and columns
+
+
+mongodb:
+-------
+collection of documents  ---> key value pair
+
+
+database --> tables --> documnets(data)
+
+
+One --> single 
+Many  --> multiple items
+
+
+insertOne
+insertMany
+
+findOne
+find
+
+updateOne   
+updateMany
+
+set
+
+deleteOne
+deleteMany
+
+
+
+mongod --version
+mongosh 
+
+show dbs  --> it will show databases in your system
+
+
+use <databse name>
+use schoolDB --> if you want create new database follow the command
+
+
+
+
+db.employees.insertMany([
+{ name: "Anita", age: 23, department: "HR", salary: 40000 },
+{ name: "Vikram", age: 30, department: "Finance", salary: 60000 },
+{ name: "Suresh", age: 28, department: "IT", salary: 55000 },
+{ name: "Meena", age: 26, department: "Marketing", salary: 45000 },
+{ name: "Arjun", age: 35, department: "IT", salary: 70000 }
+])
+
+
+

@@ -3,7 +3,7 @@ var app = express();
 var PORT = 3000;
 
 
-app.get("/tables/:number",(req,res)=>{
+app.get("/tables/:number", (req,res)=>{
 
     console.log(req.params.number);
 
